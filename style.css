@@ -51,14 +51,14 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: white;
     background-color: black;
     align-items: center;
 }
-.banner-right{
-    height: 100%;
-    width: 50%;
+.banner-right img{
+    height: 100vh;
+    width: 90%;
 }
 .banner-description{
     margin: 50px;
@@ -68,7 +68,7 @@
     font-size: 20px;
 }
 .banner-title{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -83,4 +83,125 @@
     background-color: red;
     padding: 15px 30px;
     border-radius: 10px;
+}
+.title2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.section2{
+    margin-top: 70px;
+    padding: 20px;
+}
+.card1{
+    width: 320px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: .10ms;
+}
+.card1:hover{
+    border: 1px solid red;
+    margin-top: -10px;
+    transition: .10ms;
+}
+.gym-icon{
+    width: 70px;
+}
+.short-info{
+    text-align: justify;
+}
+.more{
+    margin-top: 10px;
+}
+.title3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+.all-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+.about-left{
+    width: 700px;
+}
+.about-right{
+    width: 700px;
+}
+.workout-image{
+    margin-top: 40px;
+}
+.workout-image img{
+    width: 300px;
+    height: 500px;
+    transform: skewY(-10deg);
+}
+.about-description h1{
+    font-size: 40px;
+}
+.about-description p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+.about-description ul{
+    font-size: 18px;
+}
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
+.about-more-btn{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.about-more-btn:hover{
+    background-color: blue;
+}
+.workout-container{
+    width: 500px;
+    height: 100px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 20px;
+    margin: 70px auto;
+}
+.lats-chat-btn{
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: white;
+}
+.lats-chat-btn:hover{
+    background-color: blue;
+}
+.workout-btn{
+    border-radius: 50px;
 }
